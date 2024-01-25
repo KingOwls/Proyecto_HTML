@@ -32,7 +32,9 @@ color-6{
 }
 .menus{
     color: #ffffff;
-    margin-top: 20px; 
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
 }
 .texto{
     color: #ffffff;
