@@ -51,6 +51,7 @@ color-6{
 }
 .buttonContact{
     background-color: #ff702a;
+    
 }
 .buttonContact:hover{
     filter: opacity(0.9);
