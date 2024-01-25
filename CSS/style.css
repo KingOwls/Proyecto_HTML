@@ -46,3 +46,13 @@ color-6{
     filter: opacity(0.9);
     transform: scale(1.04);
 }
+.menuContact {
+    color: #ffffff;
+}
+.buttonContact{
+    background-color: #ff702a;
+}
+.buttonContact:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
