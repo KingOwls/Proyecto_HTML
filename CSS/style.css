@@ -31,7 +31,13 @@ color-5{
     color: #ffffff;
     font-size: 20px;
     display: flex;
+    float: left;
     flex-direction:column;
+    margin-right: 1em;
+}
+.menus:hover{
+    filter: opacity(0.9);
+    border-color:aquamarine;
 }
 .subtexto{
     color: #ffffff;
