@@ -10,6 +10,10 @@ color-5{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.boxes{
+    background-color: #ffefe8;
+    float: inline-start;
+}
 .container{
     margin-top: 20px;
     width: 100%;
@@ -17,19 +21,31 @@ color-5{
 }
 .Title{
     color: #ff702a;
-
+    font-weight: bold;
+    font-size: 70px;
+}
+.subtitle{
+    color: #ff702a;
 }
 .menus{
     color: #ffffff;
     font-size: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
 }
-.texto{
+.subtexto{
     color: #ffffff;
 }
+.texto{
+    color: #000;
+    background-color: #ffefe8;
+}
 .button{
+    padding: 10px;
     background-color: #ff702a;
+    background-position: 0%;
+    width:fit-content;
+    height: fit-content;
 }
 .button:hover{
     filter: opacity(0.9);
@@ -39,10 +55,14 @@ color-5{
     color: #ffffff;
 }
 .buttonContact{
+    padding: 10px;
     background-color: #ff702a;
-    
+    border-radius: 50px;
 }
 .buttonContact:hover{
     filter: opacity(0.9);
     transform: scale(1.04);
+}
+.imgFondContact{
+    background-color: #ffefe8;
 }
