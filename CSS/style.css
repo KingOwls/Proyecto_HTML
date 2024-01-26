@@ -1,25 +1,14 @@
-color-1{
-    background-color: #2c2b47;
-}
-color-2{
-    background-color: #0000;
-}
-color-3{
-    background-color: #ffffff;
-}
-color-4{
-    background-color: #1e1d2b;
-}
 color-5{
     background-color: #ffefe8;
 }
-color-6{
-    background-color: #ff702a;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     background-color: #2c2b47;
     font-size: 1.5rem;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     margin-top: 20px;
