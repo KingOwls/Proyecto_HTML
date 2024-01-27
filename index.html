@@ -5,113 +5,342 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <title>Document</title>
+    <title>Diseño Actividades</title>
 </head>
 <body>
-    
-    <span>
-        <header class="Title">FOODS</header>
-        <h3 class="menus">Home</h3>
-        <h3 class="menus">About</h3>
-        <h3 class="menus">Menu</h3>
-        <h3 class="menus">Service</h3>
-        <h3 class="menus">Contact</h3>
-    </span>
-    <h1 class="Title">Full Website</h1>
-    <p class="subtexto">Food the most precious thing</p>
-    <img src="img/home.png" alt="Principal" width="20%"></a>
-    <!--boton -->
-    <p class="button">Today's menu</p>
-
-    <h1 class="Title">About Us</h1>
-    <p class="subtexto">We speak the good food language</p>
-    <p class="subtexto">
-        it is a long established fact that a
-        be distracted by the readable content 
-        looking at its layout. The point of
-    </p>
-    <p class="button">learn More</p>
-    <img src="img/about.png" alt="About_Us" width="20%"></a>
-    <h1 class="Title">Food Menu</h1>
-    <div>
-    <p class="subtexto">Fresh taste and grat price</p>
-        <div class="boxes">
-        <p class="texto">Chicken burger</p>
-        <h5 class="texto">Tasty food </h5>
-        <img class="imgFondContact" src="img/food1.png" alt="Chicke_Burger" width="20%"></a>
-        <small class="texto">$11.00</small>
+    <header class="cabezaera">
+        <div class="container">
+            <nav class="search">
+                <a class="search-logo">
+                    Foods
+                </a>
+                <ul class="search-menu desktop">
+                    <li class="search-link">
+                        <a>Home</a>
+                    </li>
+                    <li class="search-link">
+                        <a> About</a>
+                    </li>
+                    <li class="search-link">
+                        <a>Menu</a>
+                    </li>
+                    <li class="search-link">
+                        <a>Service</a>
+                    </li>
+                    <li class="search-link">
+                        <a>Contact</a>
+                    </li>
+                </ul>
+                <div class="toggle-container mobile">
+                    <input type="checkbox" class="toggle-checkbox" id="toggle">
+                    <label for="toggle" class="toggle-label">
+                        <i class="open bx bx-menu"></i>
+                        <i class='close bx bx-x'></i>
+                        <ul class="search-menu__mobile close text-align-center">
+                            <li class="search-link">
+                                <a> Home</a>
+                            </li>
+                            <li class="search-link">
+                                <a>About</a>
+                            </li>
+                            <li class="search-link">
+                                <a>Menu</a>
+                            </li>
+                            <li class="search-link">
+                                <a>Service</a>
+                            </li>
+                            <li class="search-link">
+                                <a>Contact</a>
+                            </li>
+                        </ul>
+                    </label>
+                  </div>
+            </nav>
         </div>
-        <div class="boxes">
-            <p class="texto">Special Beef Burger</p>
-            <h5 class="texto">Tasty food </h5>
-            <img class="imgFondContact" src="img/food2.png" alt="Beef_Burger" width="20%"></a>
-            <small class="texto">$11.00</small>
+    </header>
+
+    <main class="main">
+        <section id="home" class="section">
+            <div class="container">
+                <div class="d-grid col-lg-6">
+                    <div class="align-center ">
+                        <div class="home-text">
+                            <h1 class="section-title">Full Website</h1>
+                            <h4>Foods the Most precious thing</h4>
+                            <button class="button">Today's Menu</button>
+                        </div>
+                    </div>
+                    <div class="text-align-center home-image">
+                        <div class="p-4">
+                            <img class="home-img" src="/img/home.png" alt="home-imagen">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="d-grid col-lg-6">
+                    <div class="align-center order-1">
+                        <div class="about-text">
+                            <h1 class="section-subtitle">About Us</h1>
+                            <h2> We speak the good food language</h2>
+                            <p>It is a long established fact that a be distracted by the readable content looking at its layout. The point of</p>
+                            <button class="button"> Learn More</button>
+                        </div>
+                    </div>
+                    <div class="text-align-center about-image ">
+                        <div class="p-4">
+                            <img class="about-img" src="img/about.png" alt="about image">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="menu" class="section">
+            <div class="container">
+                <div class="d-grid">
+                    <div class="text-align-center">
+                        <h1 class="section-subtitle">Food Menu </h1>
+                        <h2>Fresh taste and grat price</h2>
+                    </div>
+                    <div class="d-grid col-lg-4 gap-2">
+
+                        <div class="product">
+                            <div class="product-container">
+                                <div class="product-header">
+                                    <img class="product-img" src="img/food1.png" alt="foot 1">
+                                    <button class="button product-button">
+                                        <i class='bx bx-cart-download' ></i>
+                                    </button>
+                                </div>
+                                <div class="product-body">
+                                    <h2 class="product-title">Chicken Burger</h2>
+                                    <h5 class="product-tag">Tasty Food</h5>
+                                    <h4 class="product-price">$11.00</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-container">
+                                <div class="product-header">
+                                    <img class="product-img" src="img/food2.png" alt="foot 1">
+                                    <button class="button product-button">
+                                        <i class='bx bx-cart-download' ></i>
+                                    </button>
+                                </div>
+                                <div class="product-body">
+                                    <h2 class="product-title">Special Beef Burger</h2>
+                                    <h5 class="product-tag">Tasty Food</h5>
+                                    <h4 class="product-price">$11.00</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-container">
+                                <div class="product-header">
+                                    <img class="product-img" src="img/food3.png" alt="foot 1">
+                                    <button class="button product-button">
+                                        <i class='bx bx-cart-download' ></i>
+                                    </button>
+                                </div>
+                                <div class="product-body">
+                                    <h2 class="product-title">Chicken Fry Pack</h2>
+                                    <h5 class="product-tag">Tasty Food</h5>
+                                    <h4 class="product-price">$11.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="service" class="section">
+            <div class="container">
+                <div class="d-grid">
+                    <div class="text-align-center">
+                        <h1 class="section-subtitle">Services</h1>
+                        <h2>We provide best food services</h2>
+                    </div>
+                    <div class="d-grid col-lg-4 gap-2">
+                        <div class="service">
+                            <div class="service-container">
+                                <img src="img/s1.png" alt="service 1" class="service-img">
+                                <h2 class="service-title">Order</h2>
+                                <div class="service-description">
+                                    <p>It is a long established  be distracted by the readable looking at its layout. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service">
+                            <div class="service-container">
+                                <img src="img/s2.png" alt="service 1" class="service-img">
+                                <h2 class="service-title">Shipping</h2>
+                                <div class="service-description">
+                                    <p>It is a long established  be distracted by the readable looking at its layout. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service">
+                            <div class="service-container">
+                                <img src="img/s3.png" alt="service 1" class="service-img">
+                                <h2 class="service-title">Dellvered</h2>
+                                <div class="service-description">
+                                    <p>It is a long established  be distracted by the readable looking at its layout. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <article class="center-content">
+                    <div class="baner">
+                        <h1>We make quality food Everyday</h1>
+                        <button class="button">Learn More</button>
+                    </div>
+                </article>
+            </div>
+           
+            
+        </section>
+        
+    </main>
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="d-grid col-lg-3">
+                <div class="footer-section">
+                    <div class="position-relative">
+                        <h3 class="footer-section__title">
+                            Menu Links
+                        </h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <a>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Menu
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Service
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <div class="position-relative">
+                        <h3 class="footer-section__title">
+                            Our Servive
+                        </h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <a>
+                                Web Design
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Web Development
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Marketing
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Product Management
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Graphic Design
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <div class="position-relative">
+                        <h3 class="footer-section__title">
+                            Information
+                        </h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <a>
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Delivery Information
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Terms & Conditions
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section text-align-center">
+                    <div class="position-relative">
+                        <h3 class="footer-section__title">
+                            Contact Us
+                        </h3>
+                    </div>
+                    <div class="social-medias">
+                        <div class="d-flex">
+                            <img class="buttonContact" src="img/facebook.png" alt="Facebook" width="10%"></a>
+                            <img class="buttonContact" src="img/twitter.png" alt="Twitter" width="10%"></a>
+                            <img class="buttonContact" src="img/instagram.png" alt="Instagram" width="10%"></a>
+                            <img class="buttonContact" src="img/linkedin.png" alt="LinkedIn" width="10%"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="boxes">
-            <p class="texto">Chicken Fry Packr</p>
-            <h5 class="texto">Tasty food </h5>
-            <img class="imgFondContact"src="img/food3.png" alt="Chicken_Fry" width="20%"></img>
-            <small class="texto">$11.00</small>
-        </div>
-    </div>
-    <h1 class="Title">Services</h1>
-    <p class="subtexto">we provide best food services</p>
-    
-    <img src="img/s1.png" alt="Order" width="20%"></a>
-    <h1 class="Title">order</h1>
-    <p class="subtexto">
-        It is a long established
-        be distracted by the readable
-        looking at its layout
-    </p>
-
-    <img src="img/s2.png" alt="Shipping" width="20%"></a>
-    <h1 class="Title">shipping</h1>
-    <p class="subtexto">
-        It is a long established
-        be distracted by the readable
-        looking at its layout
-    </p>
-
-    <img src="img/s3.png" alt="Dellvered_s3" width="20%"></a>
-    <h1 class="Title">Dallvered</h1>
-    <p class="subtexto">
-        It is a long established
-        be distracted by the readable
-        looking at its layout
-    </p>
-
-    <p class="subtexto">We make quality food Everyday</p> 
-    <p class="button">learn More</p>
-
-    <p class="subtexto">menu Links</p>
-
-    <p class="subtexto">Home</p>
-    <p class="subtexto">About</p>
-    <p class="subtexto">menu</p>
-    <p class="subtexto">Service</p>
-    <p class="subtexto">Contact</p>
-
-    <p class="subtexto">Our Servive</p>
-
-    <p class="subtexto">Web Design</p>
-    <p class="subtexto">Web Development</p>
-    <p class="subtexto">Marketing </p>
-    <p class="subtexto">Product management</p>
-    <p class="subtexto">Graphic Design</p>
-
-    <p class="subtexto">Information</p>
-    <p class="subtexto">About us</p>
-    <p class="subtexto">Delivery Information</p>
-    <p class="subtexto">Proyvacy Policy</p>
-    <p class="subtexto">Terms & Conditions</p>
-    
-    <p class="subtexto">Contact Us</p>
-
-    <img class="buttonContact" src="img/facebook.png" alt="Facebook" width="10%"></a>
-    <img class="buttonContact" src="img/twitter.png" alt="Twitter" width="10%"></a>
-    <img class="buttonContact" src="img/instagram.png" alt="Instagram" width="10%"></a>
-    <img class="buttonContact" src="img/linkedin.png" alt="LinkedIn" width="10%"></a>
+    </footer>
 
 
 </body>
